@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/uhr3slk.css");
+.innovativeContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 76.85rem;
+  width: 76.85rem;
+  margin: 0 auto;
+  background-color: #f8fdff;
+  height: 100vh;
+  margin-top: 5rem;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.textClass h1 {
+  font-size: 3.7rem;
+  color: #003b79;
+  line-height: 4.8rem;
+  font-family: source-sans-pro;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.textClass p {
+  font-size: 1.25rem;
+  line-height: 2.4rem;
+  margin-bottom: 2.5rem;
+}
+.textClass button {
+    border: none;
+  width: 11.62rem;
+  height: 3.75rem;
+  background: #007ff4;
+  border-radius: 1.87rem;
+  color:#fff;
+  line-height: 1.2rem;
+}
+/* ----------------CARD Style--------------*/
+.Card{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(3,1fr);
+}

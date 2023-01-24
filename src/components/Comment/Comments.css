@@ -1,0 +1,31 @@
+@import url("https://use.typekit.net/uhr3slk.css");
+.commentContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 76.85rem;
+  width: 76.85rem;
+  margin: 0 auto;
+  background-color: #f8fdff;
+  height: 90vh;
+  /* margin-top: 5rem; */
+}
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  font-size: 3.3rem;
+  font-family: source-sans-pro;
+  font-weight: 600;
+  color:#003B79;
+  line-height: 4.8rem;
+  margin-bottom: 10rem;
+  cursor: pointer;
+}
+.cardComment{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}

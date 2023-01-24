@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/uhr3slk.css");
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 76.85rem;
+  width: 76.85rem;
+  margin: 0 auto;
+  background-color: #f8fdff;
+  height: 10rem;
+  /* border: 2px solid red; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar h2 {
+  font-size: 2.1rem;
+  font-family: source-sans-pro;
+  font-weight: 700;
+  color: #0073ff;
+  cursor: pointer;
+}
+.navbar span {
+  color: #fcbf9d;
+}
+.navbar_list {
+  width: 30%;
+  /* border: 2px solid red; */
+}
+.navbar_list ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  cursor: pointer;
+}
+.navbar_list ul li {
+  color: #0073ff;
+  font-family: source-sans-pro;
+  font-weight: 400;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+/*----------------Footer--------------*/
+.footer {
+  
+  height: 15rem;
+  background-color: #ecf4ff;
+  cursor: pointer;
+}
+.footerIcon{
+margin-left: 5rem;
+padding: 3.5rem;
+}
+.footerIcon img{
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.footerIcon p{
+    margin-left: 0.5rem;
+    color: #667C94;
+    font-size: 1rem;
+    cursor: pointer;
+}

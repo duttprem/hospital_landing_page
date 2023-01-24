@@ -1,0 +1,76 @@
+  @import url("https://use.typekit.net/uhr3slk.css");
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 76.85rem;
+  width: 76.85rem;
+}
+.title {
+  height: 1.5rem;
+  cursor: pointer;
+  /* margin-left: 7.5rem; */
+  position: relative;
+  z-index: -1;
+}
+.OvalhalfLeft {
+  top: 0;
+  height: 21rem;
+  z-index: -2;
+  left: 0;
+  position: absolute;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  gap: 3.3rem;
+  cursor: pointer;
+  margin-right: 3rem;
+  position: relative;
+  /* z-index: -1; */
+}
+.OvalFullRight {
+  position: absolute;
+  z-index: -2;
+  right: 0;
+}
+.navBar li {
+  list-style-type: none;
+  font-size: 1rem;
+  color: #0073ff;
+  font-family: source-sans-pro;
+  font-weight: 400;
+  cursor: pointer;
+}
+.navBar button {
+  margin-left: 2rem;
+  width: 10.62rem;
+  height: 3.125rem;
+  border: none;
+  color: #ffffff;
+  background: #007ff4;
+  border-radius: 1.56rem;
+  font-size: 1rem;
+  font-family: source-sans-pro;
+  font-weight: 700;
+  cursor: pointer;
+}
+.circle {
+  width: 48rem;
+  height: 24rem;
+  position: absolute;
+  z-index: -2;
+  right:0;
+  top:0;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,49 @@
+@import url("https://use.typekit.net/uhr3slk.css");
+.teamContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 76.85rem;
+  width: 76.85rem;
+  margin: 0 auto;
+  background-color: #F8FDFF;
+  height: 100vh;
+  /* border: 2px solid red; */
+  position: relative;
+}
+.teamInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 13rem;
+}
+.teamInfo h1 {
+  text-align: center;
+  font-size: 3.37rem;
+  color: #003b79;
+  font-family: source-sans-pro;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 4.8rem;
+  margin-bottom: 1rem;
+}
+.teamInfo p {
+  font-style: normal;
+  color: #002348;
+  font-size: 1.25rem;
+  font-family: source-sans-pro;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.4rem;
+}
+.teamContainer img {
+  position: absolute;
+  height: 27rem;
+  right: -8.5rem;
+  top: 0;
+}
+.cardDetail{
+  display: flex;
+  justify-content: space-between;
+}

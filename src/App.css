@@ -1,0 +1,9 @@
+body {
+  background-color: hwb(0 85% 13%);
+}
+@media only screen and (max-width: 1442px) {
+  html {
+    font-size: 15px;
+    /* background-color:red ; */
+  }
+}

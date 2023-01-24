@@ -1,0 +1,108 @@
+  @import url("https://use.typekit.net/uhr3slk.css");
+.Servicecontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 76.85rem;
+  width: 76.85rem;
+  margin: 0 auto;
+  background-color: #f8fdff;
+  height: 100vh;
+}
+.text {
+  text-align: center;
+}
+.text h1 {
+  font-family: source-sans-pro;
+  font-weight: 600;
+  line-height: 4.7rem;
+  font-size: 3.38rem;
+  color: #003b79;
+  cursor: pointer;
+  margin-bottom: 2.1rem;
+}
+.text p {
+  font-size: 1.25rem;
+  color: #002348;
+  font-family: source-sans-pro;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  line-height: 2.4rem;
+}
+
+.card {
+  width: 17rem;
+  height: 20.75rem;
+  /* background-color: red; */
+  background: #ffffff;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  
+}
+.card h2{
+    margin-left:2.5rem ;
+    margin-top:5rem;
+    font-family: source-sans-pro;
+  font-weight: 700;
+}
+
+.card:hover {
+  background-color: #007ef3;
+  height: 25rem;
+  /* display: block; */
+   box-shadow: 0px 10px 50px 25px rgba(0, 126, 243, 0.26049);
+}
+
+.cardTitle p,.cardTitle img{
+  display: none;
+  font-family: source-sans-pro;
+  font-weight: 600;
+}
+
+.card:hover p {
+  display: flex;
+  /* justify-content: center;    */
+  /* margin-left: -3rem; */
+}
+.card:hover img{
+    display: flex;
+}
+.cardTitle{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    
+}
+
+
+.card span {
+  color: #007ef3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11rem; 
+  font-weight: 500;
+  margin-left: -3rem;
+   cursor: pointer;
+}
+.cardIcon {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  height: 25rem;
+ 
+}
+
+.cardIcon:hover p{
+color: #fff;
+}
+
+.card:hover span{
+  color: #fff;
+}
+.card:hover h2{
+    color:#fff;
+}
+
